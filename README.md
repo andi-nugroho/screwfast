@@ -1,6 +1,6 @@
 # Versatile Landing, Blog & Docs Template for a Simplified Web Presence
 
-![ScrewFast](https://github.com/mearashadowfax/ScrewFast/assets/125820963/cdf299bd-414a-4a2d-baf0-d188bb4709c7)
+<img width="1920" height="1080" alt="ScrewFast" src="https://github.com/user-attachments/assets/0dcd7208-f2d8-4b13-84ec-754ef882bf0a" />
 
 ScrewFast is an **open-source template** designed for quick and efficient web project setup, blending **minimalism with functionality**. Whether you're showcasing a portfolio, launching a company landing page, or running a blog, ScrewFast provides everything you need. By combining the power of the [Astro](https://astro.build/), [Tailwind CSS](https://tailwindcss.com/), and [Preline UI](https://preline.co/), this template offers a functional and aesthetically pleasing solution for your web presence.
 
@@ -8,7 +8,7 @@ ScrewFast is an **open-source template** designed for quick and efficient web pr
     <a href="https://screwfast.uk" target="_blank">
       <img src="https://vyclk3sx0z.ufs.sh/f/hv6ttNERWpXu6c2AP0GCBnYt4h3FbsMuKyP5RxQ21HvzIae0" alt="ScrewFast Demo" width="180"/></a>
   &nbsp;&nbsp;&nbsp;
-    <a href="https://atemplate.com/item/screwfast" target="_blank">
+    <a href="https://github.com/andi-nugroho/screwfast" target="_blank">
       <img src="https://atemplate.com/badages-awards.svg" alt="ScrewFast | A template" width="180"/></a>
 </p>
 
@@ -90,7 +90,7 @@ ScrewFast is an **open-source template** designed for quick and efficient web pr
 * [x] **Post Feedback Component**:
   * Collects user feedback at the end of blog posts.
   * Serves as a UI demonstration (no back-end integration currently).
-  
+
 * [x] **Starlight Documentation Theme Integration**:
   * A sleek, user-friendly, full-featured documentation theme, which enhances the readability and usability of documentation.
   * Enhances readability and usability of documentation with features like site navigation, search, dark mode, code highlighting, and internationalization support.
@@ -102,15 +102,15 @@ ScrewFast is an **open-source template** designed for quick and efficient web pr
 
 * [x] **Internationalization (i18n) Features**:
   * Integrates [Astro's i18n features](https://docs.astro.build/en/guides/internationalization/) and includes a custom `LanguagePicker` component.
-  * Developers can access the monolingual version directly from [`monolingual-site` branch](https://github.com/mearashadowfax/ScrewFast/tree/monolingual-site).
+  * Developers can access the monolingual version directly from [`monolingual-site` branch](https://github.com/andi-nugroho/screwfast).
 
 * [x] **Dynamic Table of Contents (ToC) with Scroll Progress Indicator**:
-  * Highlights the relevant section in the ToC with a scroll progress indicator. 
+  * Highlights the relevant section in the ToC with a scroll progress indicator.
   * Developers seeking alternatives might consider the [remark-toc](https://github.com/remarkjs/remark-toc) plugin.
 
 > [!NOTE]
-> Currently, there are no planned improvements or known bugs. If you encounter any issues, please report them on our [issues page](https://github.com/mearashadowfax/ScrewFast/issues) or [start a discussion](https://github.com/mearashadowfax/ScrewFast/discussions/new/choose) to share ideas, suggestions, or ask questions.
-  
+> Currently, there are no planned improvements or known bugs. If you encounter any issues, please report them on our [issues page](https://github.com/andi-nugroho/screwfast/issues) or [start a discussion](https://github.com/andi-nugroho/screwfast/discussions/new/choose) to share ideas, suggestions, or ask questions.
+
 ## Getting Started
 
 This guide will provide you with the necessary steps to set up and familiarize yourself with the Astro project on your local development machine.
@@ -160,15 +160,15 @@ This creates a `dist/` directory with your built site (configurable via [outDir 
 
 ### Deploying to Vercel
 
-Click the button below to start deploying your project on Vercel:  
+Click the button below to start deploying your project on Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmearashadowfax%2FScrewFast)
+[![Deploy with Vercel](https://vercel.com/button)](https://github.com/andi-nugroho/screwfast)
 
 ### Deploying to Netlify
 
-Click the button below to start deploying your project on Netlify:  
+Click the button below to start deploying your project on Netlify:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mearashadowfax/ScrewFast)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/andi-nugroho/screwfast)
 
 ## Project Structure
 
@@ -177,7 +177,7 @@ ScrewFast organizes modular components, content, and layouts to streamline devel
 ```md
 
 src/
-├── assets/               
+├── assets/
 │   ├── scripts/          # JS scripts
 │   └── styles/           # CSS styles
 ├── components/           # Reusable components
@@ -187,21 +187,21 @@ src/
 │   └── ui/               # UI components categorized by functionality
 ├── content/              # Markdown files for blog posts, insights, products, and site configuration
 │   ├── blog/
-│   ├── docs/           
-│   ├── insights/         
-│   └── products/         
+│   ├── docs/
+│   ├── insights/
+│   └── products/
 ├── data_files/           # Strings stored as JSON files
 ├── images/               # Static image assets for use across the website
 ├── layouts/              # Components defining layout templates
 │   └── MainLayout.astro  # The main wrapping layout for all pages
 ├── pages/                # Astro files representing individual pages and website sections
 │   ├── 404.astro         # Custom 404 page
-│   ├── blog/   
+│   ├── blog/
 │   ├── fr/               # Localized content
-│   ├── contact.astro     
+│   ├── contact.astro
 │   ├── index.astro       # The landing/home page
-│   ├── insights/         
-│   ├── products/         
+│   ├── insights/
+│   ├── products/
 │   ├── robots.txt.ts     # Dynamically generates robots.txt
 │   └── services.astro
 ├── utils/                # Shared utility functions and helpers
@@ -216,7 +216,7 @@ Static files served directly to the browser are within the `public` directory at
 
 public/
 └── banner-pattern.svg
-    
+
 ```
 
 ## Customization
@@ -362,7 +362,7 @@ With Starlight, you gain access to powerful features and integrations, as well a
 > Dive into the Starlight's comprehensive feature list and learn how it can streamline your development process by visiting the theme's [documentation site](https://starlight.astro.build/).
 
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > If the sidebar in your Starlight site is not scrolling, and you have to manually drag the scrollbar, remove the script tag related to the Lenis smooth scroll library from `src/components/ui/starlight/Head.astro`.
 
 
@@ -693,6 +693,6 @@ If you're interested in helping, you can contribute in several ways:
 
 ## License
 
-This project is released under the MIT License. Please read the [LICENSE](https://github.com/mearashadowfax/ScrewFast/blob/main/LICENSE) file for more details.
+This project is released under the MIT License. Please read the [LICENSE](https://github.com/andi-nugroho/screwfast/blob/main/LICENSE) file for more details.
 
 **Note:** This website template has no affiliation with the companies displayed. Logos are used for demonstration purposes only and should be replaced in customized versions.
